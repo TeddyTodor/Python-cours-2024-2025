@@ -43,3 +43,11 @@ while i < 100 :
     num = num2
     num2 = temp
     i += 1
+
+i = 0
+times = int(input("How many times do you want to say it ?"))
+word = "If your happy and you know it "
+while i < times :
+    do_something = input("Do something : ")
+    print("%s%s" %(word, do_something))
+    i += 1
