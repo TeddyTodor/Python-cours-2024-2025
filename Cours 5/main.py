@@ -33,4 +33,13 @@ if guess == num :
     print("You win")
 else :
     print("You lose")
-    
+
+num = 0
+num2 = 1
+i = 0
+while i < 100 :
+    print (num)
+    temp = num + num2
+    num = num2
+    num2 = temp
+    i += 1
