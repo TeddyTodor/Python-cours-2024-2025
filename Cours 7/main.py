@@ -28,12 +28,8 @@ def exo2 (a, b) :
     
     print(sentence)
 
-
-
-
-
-
 def exo3 () :
+
     my_list = [10,20,30,40,50,60,70,80,90]
     number_exist = False
 
@@ -53,3 +49,4 @@ def exo3 () :
 
     sentence = f"found in index {i}" if number_exist else "bruh, nothing"
     print(sentence)
+
